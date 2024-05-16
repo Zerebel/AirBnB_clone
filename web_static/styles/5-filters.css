@@ -1,0 +1,46 @@
+.filters {
+  height: 70px;
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.filters > :first-child {
+  border-right: 1px solid #dddddd;
+}
+
+.filters > button {
+  font-size: 18px;
+  background-color: #ff5a5f;
+  color: #ffffff;
+  height: 48px;
+  width: 20%;
+  border: none;
+  border-radius: 4px;
+  margin-left: auto;
+}
+
+.filters > button:hover {
+  opacity: 0.9;
+}
+
+.amenities,
+.locations {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  height: 100%;
+  margin: 0 auto;
+
+  h3 {
+    font-weight: 600;
+  }
+  h4 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
